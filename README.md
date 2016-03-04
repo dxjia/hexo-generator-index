@@ -24,7 +24,7 @@ index_generator:
 ## Support Articles Stick Function
 Reference : [解决Hexo置顶问题](http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/)
 在原作者基础上增加文章置顶功能，使用方法：
-- 使用 替换你的 `node_modules/hexo-generator-index/lib/generator.js`；
+- 使用[generator.js](https://github.com/dxjia/hexo-generator-index/blob/master/lib/generator.js) 替换你的 `node_modules/hexo-generator-index/lib/generator.js`；
 - 在写文章时，在文章顶部的format里增加top属性，值越大，置顶越靠前；不写的代表不置顶；
 ```
 title: Hello World
